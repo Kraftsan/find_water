@@ -30,6 +30,6 @@ class UNet(nn.Module):
 ---
 ### 3. Загрузка данных
  * Источник: Zenodo (S1S2-Water dataset)
- * Части: 1-8 (каждая ~5 ГБ)
+ * Части: 1-8 (каждая ~30 ГБ)
  * Формат: Sentinel-1 и Sentinel-2 снимки с масками воды
  * Структура: part{N}/sample_{N}/sentinel12_s2_*_img.tif и *_msk.tif
